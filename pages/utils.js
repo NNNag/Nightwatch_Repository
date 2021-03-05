@@ -13,8 +13,8 @@ module.exports = function(browser){
     };
     this.userLogin = function () {
         browser
-            .setValue('#email', 'rajanaveen1@gmail.com')
-            .setValue('#passwd', 'Welcome@123')
+            .setValue('#email', '**********@gmail.com')
+            .setValue('#passwd', '*************')
             .click('#SubmitLogin')
     };
     this.assertTheLogin = function () {
